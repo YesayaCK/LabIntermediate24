@@ -1,6 +1,6 @@
 def hangman():
     word="software"
-    guess=["_"]*8
+    guess=["_"]*len(word)
     attempts=10
 
     while attempts > 0 and "_" in guess: 
