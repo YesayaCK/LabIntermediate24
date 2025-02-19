@@ -30,5 +30,4 @@ def hangman (secret_word):
         print("Kamu berhasil menebaknya, jawabannya adalah:", word)
     
 secret_word = input("Masukkan kata rahasia:")
-            
 hangman(secret_word)
